@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/md_amber_50"
+              tools:context="com.demo.chenpf.fragment.TabOneFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/hello_tab_one"
+        android:textColor="@color/md_black_1000"/>
+
+    <com.demo.chenpf.customview.UpFilpView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:background="@color/md_green_50"
+        android:inAnimation="@anim/anim_up_flip_in"
+        android:outAnimation="@anim/anim_up_flip_out"
+        android:id="@+id/upfilpview"/>
+
+</LinearLayout>

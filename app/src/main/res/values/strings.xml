@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ViewPagerDemo</string>
+    <string name="guide_start">开启旅程</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_tab_one">Hello Tab One</string>
+    <string name="hello_tab_two">Hello Tab Two</string>
+    <string name="hello_tab_three">Hello Tab Three</string>
+    <string name="tab_one_title">TAB ONE</string>
+    <string name="tab_two_title">TAB TWO</string>
+    <string name="tab_three_title">TAB THREE</string>
+</resources>
